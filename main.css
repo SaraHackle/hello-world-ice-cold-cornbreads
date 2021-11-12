@@ -1,0 +1,76 @@
+nav {
+    display: flex;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: fantasy;
+    justify-content: space-evenly;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-family: fantasy;
+    margin-top: 15px;
+}
+
+.brazil-logo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: forestgreen;
+}
+
+.picture {
+    height: 25%;
+    width: 25%;
+
+}
+
+.logo {
+    padding-left: 120px;
+    border: 15px groove gold;
+    align-items: left;
+    background-image: linear-gradient(to bottom right, rgb(96, 182, 221), rgb(222, 238, 240));
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landmarks{
+    display: flex;
+    flex: 2;
+    padding: 1em;
+}
+
+.landmark-pics {
+    width: 50%;
+    height: 50%;
+}
+
+.cities {
+    border: 5px solid black;
+    margin: 5px;
+    flex: 1;
+    padding: 1em;
+}
+
+.cities-text {
+
+}
+
+.people {
+    flex: 1;
+    padding: 1em;
+}
