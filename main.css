@@ -57,6 +57,7 @@ footer {
     display: flex;
     flex: 2;
     padding: 1em;
+    justify-content: space-between;
 }
 
 .landmark-pics {
