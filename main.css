@@ -1,88 +1,215 @@
+body {
+    background-image: url("images/snowflake.jpeg");
+    background-size: 16%;
+    background-repeat: repeat;
+}
+
 nav {
-    display: flex;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: fantasy;
-    justify-content: space-evenly;
+  display: flex;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: fantasy;
+  justify-content: space-evenly;
 }
 
 header {
-    text-align: center;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: xx-large;
-    font-family: fantasy;
-    margin-top: 15px;
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: xx-large;
+  font-family: fantasy;
+  margin-top: 15px;
 }
 
 .brazil-logo {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: forestgreen;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(34, 139, 34, 0.767);
 }
+
+.brazil-color {
+    background-color: rgba(34, 139, 34, 0.589);
+}
+
+
 .iceland-logo {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(64, 111, 212);
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(64, 111, 212, 0.808);
+}
+
+.ice-color {
+    background-color: rgba(64, 111, 212, 0.671);
 }
 
 .newZealand-logo {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: blue;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 255, 0.657);
+}
+
+.nz-color {
+    background-color: rgba(0, 0, 255, 0.527);
 }
 
 .picture {
-    height: 25%;
-    width: 25%;
+  height: 50%;
+  width: 50%;
+}
 
+.map-box {
+    text-align: center;
+}
+
+.map {
+    border: 11px groove purple;
+    height: 75%;
+    width: 75%;
 }
 
 .logo {
-    padding-left: 120px;
-    border: 15px groove gold;
-    align-items: left;
-    background-image: linear-gradient(to bottom right, rgb(96, 182, 221), rgb(222, 238, 240));
+  padding-left: 120px;
+  border: 15px groove gold;
+  align-items: left;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(96, 181, 221, 0.637),
+    rgba(222, 238, 240, 0.568)
+  );
 }
 
 .content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-footer {
+.brazil-h2 {
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    darkgreen
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ice-h2 {
     text-align: center;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-image: linear-gradient(
+      to left,
+      violet,
+      indigo,
+      blue,
+      darkgreen
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.landmarks{
-    display: flex;
-    flex: 2;
-    padding: 1em;
-    justify-content: space-between;
-}
-
-.landmark-pics {
-    width: 50%;
-    height: 50%;
+.nz-h2 {
+    text-align: center;
+    background-image: linear-gradient(
+      to left,
+      yellow,
+      orange,
+      darkred
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .cities {
-    border: 5px solid black;
-    margin: 5px;
-    flex: 1;
-    padding: 1em;
+  border: 5px solid black;
+  margin: 5px;
+  flex: 1;
+  padding: 1em;
 }
 
 .cities-text {
+  font-family: fantasy;
+  font-size: larger;
+  line-height: 1.8;
+}
 
+.landmarks {
+  font-family: fantasy;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  margin: 5px;
+  flex: 2;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.lm-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.landmark-pics {
+  display: flex;
+  width: 75%;
+  height: 75%;
 }
 
 .people {
-    flex: 1;
-    padding: 1em;
+  border: 5px solid black;
+  margin: 5px;
+  flex: 1;
+  padding: 1em;
+}
+
+li {
+    align-items:center ;
+}
+
+.people-text {
+  font-family: fantasy;
+  font-size: larger;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    red,
+    orange,
+    green
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
