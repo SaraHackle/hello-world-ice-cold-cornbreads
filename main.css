@@ -28,6 +28,12 @@ header {
     background-color: rgb(64, 111, 212);
 }
 
+.newZealand-logo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
 .picture {
     height: 25%;
     width: 25%;
