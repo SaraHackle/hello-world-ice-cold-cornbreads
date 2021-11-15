@@ -22,6 +22,11 @@ header {
     justify-content: space-evenly;
     background-color: forestgreen;
 }
+.iceland-logo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(64, 111, 212);
+}
 
 .picture {
     height: 25%;
