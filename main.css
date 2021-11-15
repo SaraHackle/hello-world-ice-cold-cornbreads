@@ -1,9 +1,11 @@
+/* css style for all pages of Ice Cold Travel */
+/* styles background repeating image and size */
 body {
     background-image: url("images/snowflake.jpeg");
     background-size: 16%;
     background-repeat: repeat;
 }
-
+/* centers a column nav bar, fantasy font with rainbow text coloring,  */
 nav {
   display: flex;
   background-image: linear-gradient(
@@ -21,7 +23,7 @@ nav {
   font-family: fantasy;
   justify-content: space-evenly;
 }
-
+/* rainbow color fantasy font and size of header, sets margin placement  */
 header {
   text-align: center;
   background-image: linear-gradient(
@@ -40,53 +42,53 @@ header {
   font-family: fantasy;
   margin-top: 15px;
 }
-
+/* brazil page map and background color */
 .brazil-logo {
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(34, 139, 34, 0.767);
 }
-
+/* brazils background info color */
 .brazil-color {
     background-color: rgba(34, 139, 34, 0.589);
 }
 
-
+/* iceland page map and background color */
 .iceland-logo {
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(64, 111, 212, 0.808);
 }
-
+/* iceland info background color */
 .ice-color {
     background-color: rgba(64, 111, 212, 0.671);
 }
-
+/* New zealand page map and background color */
 .newZealand-logo {
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(0, 0, 255, 0.657);
 }
-
+/* new zealand info background color */
 .nz-color {
     background-color: rgba(0, 0, 255, 0.527);
 }
-
+/* size of each pages map image */
 .picture {
   height: 50%;
   width: 50%;
 }
-
+/* centering home page map */
 .map-box {
     text-align: center;
 }
-
+/* border and size of homepage map */
 .map {
     border: 11px groove purple;
     height: 75%;
     width: 75%;
 }
-
+/* Ice Cold travel logo on each page, gradient background color with border */
 .logo {
   padding-left: 120px;
   border: 15px groove gold;
@@ -97,12 +99,12 @@ header {
     rgba(222, 238, 240, 0.568)
   );
 }
-
+/* centers and aligns all content on all pages */
 .content {
   display: flex;
   justify-content: center;
 }
-
+/* brazil page header font and rainbow text */
 .brazil-h2 {
   text-align: center;
   background-image: linear-gradient(
@@ -115,7 +117,7 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+/* iceland page header font and rainbow text */
 .ice-h2 {
     text-align: center;
     background-image: linear-gradient(
@@ -128,7 +130,7 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+/* new zealand header font and rainbow text */
 .nz-h2 {
     text-align: center;
     background-image: linear-gradient(
@@ -140,20 +142,20 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+/* section containing cities border and size */
 .cities {
   border: 5px solid black;
   margin: 5px;
   flex: 1;
   padding: 1em;
 }
-
+/* text attributes for city section on each page */
 .cities-text {
   font-family: fantasy;
   font-size: larger;
   line-height: 1.8;
 }
-
+/* captions and content in location sections */
 .landmarks {
   font-family: fantasy;
   text-align: center;
@@ -165,7 +167,7 @@ header {
   padding: 1em;
   justify-content: space-between;
 }
-
+/* centered all items in locations sections, set spacing and set columns */
 .lm-box {
   display: flex;
   align-items: center;
@@ -173,30 +175,30 @@ header {
   justify-content: center;
   flex-wrap: wrap;
 }
-
+/* sized all pictures in landmark section, and flexed for spacing */
 .landmark-pics {
   display: flex;
   width: 75%;
   height: 75%;
 }
-
+/* border and size for famous people sections */
 .people {
   border: 5px solid black;
   margin: 5px;
   flex: 1;
   padding: 1em;
 }
-
+/* aligned all listed items */
 li {
     align-items:center ;
 }
-
+/* font size and family for text in famous people sections */
 .people-text {
   font-family: fantasy;
   font-size: larger;
   line-height: 1.8;
 }
-
+/* copyright font, size, and rainbow text */
 footer {
   text-align: center;
   font-size: 32px;
