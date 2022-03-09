@@ -1,5 +1,10 @@
 # Hello, World
 
+My Very First Team Project at Nashville Software School. Learning the Basics of HTML and CSS
+
+## My Contribution
+The Iceland Page
+
 ## Goal
 
 Your team is going to build a travel brochure site. Each of you will pick a country that you have always wanted to visit and build a page with the following components.
